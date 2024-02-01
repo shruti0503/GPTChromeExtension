@@ -3,7 +3,8 @@
     "name": "Minimal Manifest",
     "version": "1.0.0",
     "description": "ChatGPT extension",
-    "actions":{
-        "default_popup": "./index.html"
+    "action": {
+      "default_popup": "./index.html"
     }
   }
+  

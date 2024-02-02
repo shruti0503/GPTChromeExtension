@@ -9,8 +9,6 @@ const Container = () => {
 //   });
   const key= process.env.REACT_APP_APIKEY
 
-
-
   const [prompt, setPrompt] = useState('');
   const [apiResponse, setApiResponse] = useState('');
   const [loading, setLoading] = useState(false);

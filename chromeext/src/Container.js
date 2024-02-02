@@ -9,10 +9,11 @@ const Container = () => {
 //   });
   const key= process.env.REACT_APP_APIKEY
 
+
   const [prompt, setPrompt] = useState('');
   const [apiResponse, setApiResponse] = useState('');
   const [loading, setLoading] = useState(false);
-
+  console.log(prompt)
   const handleGetAnswer = async (e) => {
    // max_tokens:100,
     console.log(key)
